@@ -26,12 +26,13 @@
   width: 30%;
 }
 .NavLink{
-  /* width: 100%; */
+  width: 30%;
   display: flex;
   justify-content: space-around;
 }
 li{
   list-style-type: none;
+  text-transform: uppercase;
   color: var(--blanco);
 }
 @media (max-width: 960px) {
