@@ -1,11 +1,14 @@
-import NavBar from './components/NavBar';
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import reportWebVitals from './reportWebVitals';
+import NavBar from './components/common/NavBar';
 import './App.css';
 
-function App() {
-  return (
- <div>
-   <NavBar />
- </div>
+
+const App = () => {
+  return(
+    <NavBar/>
   );
 }
 
