@@ -2,13 +2,17 @@ import React, { useState } from "react";
 
 const ItemCount = () => {
     const stock = 10;
+    
     //  Se establece el inicio del contador en "0"
     const [counter, setCounter] = useState(0)
     // Función Decremento
     const decremento = () => {
 //  Si el contador llega a menos que "0" manda una alerta 
-        if ( counter < 1 ) {
-            alert ("Debes solicitar al menos 1 pieza") 
+
+        if ( counter <= 1 ) {
+            alert ('1 pieza es el mínimo'); 
+            document.getElementsByClassName(decremento).current.disabled = true;
+
         } else {
             // El estado del contador decrementa el conteo
             setCounter(counter - 1)
@@ -39,7 +43,8 @@ const ItemCount = () => {
             </div>
             <div className="buttons">
                 <button className="decremento" onClick={decremento}>-</button>
-                <button className="incremento" onClick={incremento}>+</button>
+                <button  className="comprar" onClick={ItemCount}>Comprar</button>
+                <button  className="incremento" onClick={incremento}>+</button>
             </div>
             <h3>Stock Disponible</h3>
             {stock}

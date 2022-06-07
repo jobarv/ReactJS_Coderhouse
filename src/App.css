@@ -78,6 +78,15 @@ li {
  display: flex;
   justify-content: space-between;
 }
+.comprar {
+  cursor: pointer;
+  position: relative;
+  top: 20vh;
+  margin-right: 5px;
+  background-color: var(--fondobody2);
+  border-radius: 8%;
+  color: white;
+}
 
 .incremento {
   cursor: pointer;
