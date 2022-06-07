@@ -50,6 +50,11 @@ li {
   }
 
 }
+.cart-widget{
+  background-color: white;
+  /* color: white;   */
+  width: 2rem;
+}
 
 /* ItemCount  */
 

@@ -1,5 +1,6 @@
 import NavBarOptions from '../helpers/NavBarOptions.jsx';
 import logo from "../../assets/img/Logo1.svg";
+import CartWidget from './cartwidget.jsx';
 
 const NavBar = () => (
   <div className="Nav-Bar">
@@ -22,6 +23,8 @@ const NavBar = () => (
           <NavBarOptions seccion={'Tienda'}></NavBarOptions>
         </a>
       </ul>
+
+      <CartWidget/>
     </div>
 );
 
