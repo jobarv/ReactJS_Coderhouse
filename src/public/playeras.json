@@ -1,0 +1,20 @@
+[
+    {
+      "id": "00",
+      "title": "The Misftis",
+      "img": "https://live.staticflickr.com/65535/50542067131_762c2f45e2_o.png",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed metus tellus, dapibus vitae risus vitae, fringilla vehicula nunc. In fermentum vestibulum nunc, sit amet vestibulum orci ullamcorper ut. Donec vitae elementum nisl. Aliquam ligula sapien, congue a fermentum vel, pulvinar varius turpis. Fusce dictum eleifend congue.",
+      "genero": "rol",
+      "price": 5200,
+      "stock": 60
+    },
+    {
+      "id": "01",
+      "title": "Elden Ring",
+      "img": "https://cdn.cdkeys.com/240x300/media/catalog/product/5/d/5de6658946177c5f23698932_24_.jpg",
+      "detail": "EL NUEVO JUEGO DE ROL Y ACCIÓN DE AMBIENTACIÓN FANTÁSTICA. Álzate, Sinluz, y que la gracia te guíe para abrazar el poder del Círculo de Elden y encumbrarte como señor del Círculo en las Tierras Intermedias.",
+      "genero": "rol",
+      "price": 2600,
+      "stock": 50
+    }
+  ]
