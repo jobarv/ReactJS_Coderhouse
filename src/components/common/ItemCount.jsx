@@ -43,7 +43,7 @@ const ItemCount = () => {
         </div>
         <h3>Stock Disponible</h3>
         {stock}
-        <Link to={"/producto/" + id } ><button type="button" className="btn card-btn-cart mt-3 btn-sm btn-add">Examinar</button></Link>
+        <Link to={"/playera/" + id } ><button type="button" className="btn card-btn-cart mt-3 btn-sm btn-add">Examinar</button></Link>
       </div>
     </>
   )

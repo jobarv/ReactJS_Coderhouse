@@ -5,9 +5,8 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React from 'react';
 import NavBar from './components/common/NavBar';
-// import ItemCount from './components/common/ItemCount';
-import ItemDetail from './components/common/ItemDetail';
-import ItemDetailCointainer from './components/common/ItemDetailCointainer';
+// import ItemDetail from './components/common/ItemDetail';
+import ItemDetailContainer from './components/common/ItemDetailContainer';
 
 
 const App = () => {
@@ -16,9 +15,8 @@ const App = () => {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path="/Producto/:id" element={<ItemDetailCointainer />} />
-          <Route path="/Nosotros" />
-          <Route path="/Contacto" />
+          <Route path="/Producto/:id" element={<ItemDetailContainer />} />
+          
         </Routes>
       </BrowserRouter>
 
