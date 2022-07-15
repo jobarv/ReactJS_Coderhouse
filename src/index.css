@@ -1,3 +1,12 @@
+/* Paleta de Colores y Fuentes*/
+:root {
+    --fondobody: #873cdd;
+    --fondonegro: #000;
+    --fondobody2: #ae46f3;
+    --blanco: #fff;
+    --hover: #ae46f3;
+    --textparr: #66149c;
+  }
 *{
     padding: 0;
     margin: 0;
@@ -6,6 +15,9 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+body {
+    background-color: var(--fondobody);
 }
 
 code {
@@ -30,7 +42,7 @@ code {
 }
 .inicio h1{
     font-size: 2.5rem;
-    color: #08a05c;
+    color: white;
 }
 .inicio img{
     width: 100%;
@@ -48,16 +60,16 @@ header{
     flex-wrap: wrap;
     position: fixed;
     box-sizing: border-box ;
-    background-color: white;
+    background-color: var(--fondonegro);
     box-shadow: 0 10px 10px #08a05c50;
 }
 a{      
-    color: black;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
 }
 a:hover{
-    color: #08a05c;
+    color: var(--hover);
 }
 .menu{
     display: none;
@@ -85,7 +97,7 @@ header ul li a{
 .cart box-icon{
     width: 45px;
     height: 45px;
-    
+    color: white;
 }
 .cart span{
     position: absolute;
@@ -108,7 +120,7 @@ header ul li a{
 .produ{
     font-size: 2.4rem;
     padding: 10rem 0 0 0;
-    color: #08a05c;
+    color: #7ba592;
 }
 .productos{
     padding: 5rem 3rem;
@@ -128,7 +140,7 @@ header ul li a{
     border-radius: 5px;
 }
 .producto:hover{
-    border: 6px solid #08a05c57;
+    border: 6px solid var(--hover);
     ;
 }
 .producto__img img{

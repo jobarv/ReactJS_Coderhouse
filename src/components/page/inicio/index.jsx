@@ -6,10 +6,19 @@ export default function Inicio() {
     return (
         <div className="inicio">   
             <Link to="/">
-            <h1>home</h1>
+            <h1>Inicio</h1>
+            </Link>
+            <Link to="nosotros">
+            <h1>Nosotros</h1>
+            </Link>
+            <Link to="servicios">
+            <h1>Servicios</h1>
+            </Link>
+            <Link to="contacto">
+            <h1>Contacto</h1>
             </Link>
             <Link to="/productos">
-            <h1>Productos</h1>
+            <h1>Tienda</h1>
             </Link>
             <img src={Portada} alt=""/>
         </div>

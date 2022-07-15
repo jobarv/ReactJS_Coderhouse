@@ -1,7 +1,7 @@
 import React, { useContext} from "react";
 import { DataContext } from "context/DataProvider";
 import { Link } from "react-router-dom";
-import Nike from "images/Nike.jpg";
+import Logo1 from "../images/Logo1.svg";
 
 
 export const Header = () => {
@@ -22,7 +22,7 @@ export const Header = () => {
       </div>
       <Link to="/">
       <div className="logo">
-        <img src={Nike} alt="Nike" width="150" />
+        <img src={Logo1} alt="Logo" width="150" />
       </div>
       </Link>
       <ul>
@@ -30,7 +30,16 @@ export const Header = () => {
           <Link to="/">INICIO</Link>
         </li>
         <li>
-          <Link to="/productos">PRODUCTOS</Link>
+          <Link to="/servicios">SERVICIOS</Link>
+        </li>
+        <li>
+          <Link to="/nosotros">NOSOTROS</Link>
+        </li>
+        <li>
+          <Link to="/contacto">CONTACTO</Link>
+        </li>
+        <li>
+          <Link to="/productos">TIENDA</Link>
         </li>
       </ul>
       <div className="cart" onClick={toogleMenu}>
