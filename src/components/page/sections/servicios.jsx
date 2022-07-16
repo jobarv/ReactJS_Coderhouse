@@ -1,10 +1,9 @@
 export const Servicios = () => {
-    return (
-			<>
-			<h1 className="produ">SERVICIOS</h1>
-        <div className="productos">
-           
-        </div>
-				</>
-    )
-}
+  return (
+    <>
+      <div className="productos">
+        <h1 className="produ">SERVICIOS</h1>
+      </div>
+    </>
+  );
+};
