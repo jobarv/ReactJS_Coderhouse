@@ -19,6 +19,7 @@ export default function Inicio() {
       <Link to="/productos">
         <h1>Tienda</h1>
       </Link>
+ 
       <img src={Portada} alt="" />
     </div>
   );

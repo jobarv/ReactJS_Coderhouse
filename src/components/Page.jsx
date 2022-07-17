@@ -15,7 +15,8 @@ export default function Page() {
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/productos" element={<ProductosList />} />
-        <Route path="/productos/id:" element={<ProductosDetalles />} />
+        <Route exact path="/producto/id:" element={<ProductosDetalles />} />
+
       </Routes>
     </section>
   );
