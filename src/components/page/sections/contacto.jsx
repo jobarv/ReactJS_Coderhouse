@@ -1,3 +1,5 @@
+// PAGINA INFORMATIVA, AQUÍ IRA EL FORMULARIO DE CONTACTO 
+
 export const Contacto = () => {
   return (
     <>

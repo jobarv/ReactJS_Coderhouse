@@ -1,3 +1,4 @@
+// PÁGINA INFORMATIVA, VISIÓN, MISIÓN Y OBJETIVOS DE BARRAS DESIGNS 
 export const Nosotros = () => {
   return (
     <>

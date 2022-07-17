@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { DataContext } from "context/DataProvider";
 import { ProductoItem } from "./ProductoItem";
 
+// INDICE DE PÁGINA PRODUCTOS 
 export const ProductosList = () => {
   const value = useContext(DataContext);
   const [productos] = value.productos;

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { DataContext } from "context/DataProvider";
-
+// FALTAN DETALLES EN ESTILOS 
 export const Carrito = () => {
   const value = useContext(DataContext);
   const [menu, setMenu] = value.menu;

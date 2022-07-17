@@ -63,7 +63,7 @@ export const ProductosDetalles = () => {
             <button onClick={() => addCarrito(detalle.id)}>
               Añadir al carrito
             </button>
-
+{/* VISOR 360° */}
             {url ? (
               <img src={images} alt={detalle.title} />
             ) : (

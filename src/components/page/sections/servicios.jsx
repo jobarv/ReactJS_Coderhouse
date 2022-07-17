@@ -1,3 +1,5 @@
+// PÁGINA DE SERVICIOS, TIPOS DE PRODUCTOS, ETC 
+
 export const Servicios = () => {
   return (
     <>
