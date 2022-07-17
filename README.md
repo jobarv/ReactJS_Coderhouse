@@ -18,29 +18,21 @@ Se está desarrollando la BD en mongodb para los productos, la idea es que se co
  * [context de la tienda](./src/context)
  * [imagenes para LocalHost](./src/images)
 
-### `npm install` Una vez se descargue hay que instalar las dependencias que vienen definidas en package.jsonm
+### `npm install` Una vez se descargue hay que instalar las dependencias que vienen definidas en package.json
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Arranca el proyecto, después de haber corrido "npm install", por default abre el explorador en localhost:3000, en caso que esté usándose la terminal preguntará si es posible abrir en otro puerto que se asignará automáticamente.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+La página se actualizará automáticamente si se hace algún cambio.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Construye la carpeta para producción, una vez realizado todo el desarrollo en el ambiente de trabajo local. Actualmente se está hosteando en el siguiente enlace:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://guileless-bonbon-04de60.netlify.app/
 
+## Falta por agregar funcionalidad en firebase y detalles de estilos en general, además de la conversión a React-Router-Dom v.6
 
