@@ -15,7 +15,7 @@ export default function Page() {
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/productos" element={<ProductosList />} />
-        <Route exact path="/producto/id:" element={<ProductosDetalles />} />
+        <Route path="/producto/:id" element={<ProductosDetalles />} />
 {/* NO DETECTA LA RUTA DE "/producto/id", PROBE CON VERSIONES ANTERIORES DE REACT Y CON "SWITCH" SÍ FUNCIONA:
 src/images/Screenshot from 2022-07-17 10-20-45.png  */}
       </Routes>
